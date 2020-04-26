@@ -11,6 +11,12 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter first integer: ");  //prompts for first integer
+    int firstNo = in.nextInt(); //input first integer
+    System.out.println("Enter second integer to be multiplied by first integer: "); //prompts for second integer
+    int secondNo = in.nextInt();  //input second integer
+    int result = firstNo * secondNo;  //multiply the 2 integers to get result
+    System.out.println("Result is " + result);  //prints the result
     
   }
 }
